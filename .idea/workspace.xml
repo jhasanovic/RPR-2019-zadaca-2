@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="88a3407b-8153-450e-aac6-2248a42c8a86" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../LearnProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnProject/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnProject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnProject/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnProject/LearnProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnProject/feature-trainer-version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnProject/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../probajavafx/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../probajavafx/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../probajavafx/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../probajavafx/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../probajavafx/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../probajavafx/.idea/libraries/javafx.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../probajavafx/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../probajavafx/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../probajavafx/.idea/sonarlint/issuestore/5/1/5119677d7763dadd18224f0ed80987affbcaae14" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../probajavafx/.idea/sonarlint/issuestore/9/f/9fb848696b40758fbc85b77a33d86c77c035924c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../probajavafx/.idea/sonarlint/issuestore/b/c/bc4c90a37ac9d1b5ef19ac18f695d26749bb9c3f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../probajavafx/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../probajavafx/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../probajavafx/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../probajavafx/out/production/probajavafx/ba/unsa/etf/rpr/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../probajavafx/out/production/probajavafx/ba/unsa/etf/rpr/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../probajavafx/out/production/probajavafx/ba/unsa/etf/rpr/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../probajavafx/probajavafx.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../probajavafx/src/ba/unsa/etf/rpr/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../probajavafx/src/ba/unsa/etf/rpr/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../probajavafx/src/ba/unsa/etf/rpr/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpr-t1-z2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpr-t1-z3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpr-t2-z2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpr20-tutorijal-3-jhasanovic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpr20-tutorijal4-jhasanovic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpr20-tutorijal5-jhasanovic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpr20-tutorijal6-jhasanovic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpr2019-t1-z4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tut4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tut4/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tut4/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tut4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tut4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tut4/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tut4/src/ba/unsa/etf/rpr/Banka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tut4/src/ba/unsa/etf/rpr/Korisnik.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tut4/src/ba/unsa/etf/rpr/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tut4/src/ba/unsa/etf/rpr/Osoba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tut4/src/ba/unsa/etf/rpr/Racun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tut4/src/ba/unsa/etf/rpr/Uposlenik.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tut4/tut4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/out/production/untitled/ba/unsa/etf/rpr/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/src/ba/unsa/etf/rpr/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/src/ba/unsa/etf/rpr/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/untitled1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled2/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled2/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled2/.idea/sonarlint/issuestore/b/c/bc4c90a37ac9d1b5ef19ac18f695d26749bb9c3f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled2/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled2/src/ba/unsa/etf/rpr/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled2/untitled2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled3/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled3/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled3/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled3/.idea/sonarlint/issuestore/b/c/bc4c90a37ac9d1b5ef19ac18f695d26749bb9c3f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled3/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled3/src/ba/unsa/etf/rpr/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled3/untitled3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled4/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled4/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled4/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled4/.idea/sonarlint/issuestore/b/c/bc4c90a37ac9d1b5ef19ac18f695d26749bb9c3f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled4/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled4/src/ba/unsa/etf/rpr/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled4/untitled4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zadaca-1-jhasanovic" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../novi/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../novi/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../novi/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../novi/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../novi/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../novi/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../novi/.idea/sonarlint/issuestore/a/0/a0a55c9e012cf5da459519cb868d352b56a35079" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../novi/.idea/sonarlint/issuestore/b/c/bc4c90a37ac9d1b5ef19ac18f695d26749bb9c3f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../novi/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../novi/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../novi/out/production/novi/ba/unsa/etf/rpr/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../novi/rpr20-zadaca2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../novi/src/ba/unsa/etf/rpr/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1lDGkGnX541IE7uQSu7Sw2H8Yzj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.Main" />
+      <module name="rpr20-zadaca2-jhasanovic" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88a3407b-8153-450e-aac6-2248a42c8a86" name="Default Changelist" comment="" />
+      <created>1607124390287</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607124390287</updated>
+      <workItem from="1607124392600" duration="6000" />
+    </task>
+    <servers />
+  </component>
+</project>
