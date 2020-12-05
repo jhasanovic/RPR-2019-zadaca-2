@@ -13,4 +13,16 @@ public class Student {
         //vratiti se u ciklus, pa u semestar, pa u svim predmetima traziti datog studenta
         //i iz mape studentiNaPredmetu uzeti njegovu ocjenu
     }
+
+    public String getIme() {
+        return ime;
+    }
+
+    public String getPrezime() {
+        return prezime;
+    }
+
+    public int getBrojIndeksa() {
+        return brojIndeksa;
+    }
 }

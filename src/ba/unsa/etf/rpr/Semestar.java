@@ -27,4 +27,11 @@ private List<Predmet> predmeti=new ArrayList<>();
         //KROZ SEMESTAR DOCI DO PREDMETA I UPISATI STUDENTA U MAPU
     }
 
+    public int getIdSemestra() {
+        return idSemestra;
+    }
+
+    public List<Predmet> getPredmeti() {
+        return predmeti;
+    }
 }
