@@ -5,17 +5,15 @@ import java.util.List;
 import java.util.stream.Stream;
 
 public class Profesor {
-    private String idProfesora;
+    private int idProfesora;
     private String ime;
     private String prezime;
-    private List<Predmet> predmeti;
+    private List<Predmet> predmeti=new ArrayList<>();
 
-    public Profesor(String idProfesora,String ime, String prezime, List<Predmet> predmeti) {
+    public Profesor(int idProfesora,String ime, String prezime) {
         this.idProfesora = idProfesora;
         this.ime = ime;
         this.prezime = prezime;
-        this.predmeti = predmeti;
-        predmeti=new ArrayList<>();
     }
 
     public int dajNormu(){

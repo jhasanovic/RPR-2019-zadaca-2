@@ -11,15 +11,13 @@ public class Predmet {
     private boolean obavezniPredmet;
     private Map<Student,Integer> studentiNaPredmetu=new HashMap<>(); //predmet treba imati listu studenata i njihove ocjene iz predmeta
     //ako student ima null value onda je neocijenjen iz tog predmeta
-    private Profesor profesor;
 
-    public Predmet(int idPredmeta, String naziv, int brojEcts, int brojSatiUSemestru, boolean obavezniPredmet,Profesor p) {
+    public Predmet(int idPredmeta, String naziv, int brojEcts, int brojSatiUSemestru, boolean obavezniPredmet) {
         this.idPredmeta = idPredmeta;
         this.naziv = naziv;
         this.brojEcts = brojEcts;
         this.brojSatiUSemestru = brojSatiUSemestru;
         this.obavezniPredmet = obavezniPredmet;
-        profesor=p;
     }
 
     public int getIdPredmeta() {
@@ -46,7 +44,4 @@ public class Predmet {
         return studentiNaPredmetu;
     }
 
-    public Profesor getProfesor() {
-        return profesor;
-    }
 }

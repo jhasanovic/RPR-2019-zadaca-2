@@ -5,14 +5,16 @@ import java.util.List;
 
 public class Semestar {
 private int idSemestra;
-private List<Predmet> predmeti=new ArrayList<>();
+private List<Predmet> predmeti;
 
-    public Semestar(int idSemestra, List<Predmet> predmeti) {
+    public Semestar(int idSemestra) {
         this.idSemestra = idSemestra;
-        this.predmeti = predmeti;
+        predmeti=new ArrayList<>();
     }
 
-    public void dodajPredmet(Predmet predmet){}
+    public void dodajPredmet(Predmet predmet){
+        predmeti.add(predmet);
+    }
     public void upisiUSemestar(Student student, ArrayList<Predmet> predmeti){
         //student.upisiUSemestar(prvi ciklus,prvi semestar,listaIzbornihPredmeta)
         //upisati ga automatski na sve obavezne, a iz liste na izborne
