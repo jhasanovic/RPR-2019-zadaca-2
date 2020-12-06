@@ -9,6 +9,7 @@ public class Predmet {
     private int brojEcts;
     private int brojSatiUSemestru;
     private boolean obavezniPredmet;
+    private Profesor profesor;
     private Map<Student,Integer> studentiNaPredmetu=new HashMap<>(); //predmet treba imati listu studenata i njihove ocjene iz predmeta
     //ako student ima null value onda je neocijenjen iz tog predmeta
 

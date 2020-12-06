@@ -7,6 +7,11 @@ public class Student {
     private String prezime;
     private int brojIndeksa;
 
+    public Student(String ime, String prezime, int brojIndeksa) {
+        this.ime = ime;
+        this.prezime = prezime;
+        this.brojIndeksa = brojIndeksa;
+    }
 
     public void dajPrepisOcjena(int idCiklusa, int idSemestra){
         //treba za sve predmete na koje je student upisan izlistati ime predmeta i ocjenu

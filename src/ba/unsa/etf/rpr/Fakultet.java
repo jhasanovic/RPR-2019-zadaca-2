@@ -1,6 +1,7 @@
 package ba.unsa.etf.rpr;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -28,8 +29,12 @@ public class Fakultet {
     }
     public List<Profesor> getProfesoriVanNorme(){
         List<Profesor> bezNorme= new ArrayList<>();
-        //profesori.dajNormu>150 ili <120 dodaj u listu
         bezNorme = profesori.stream().filter(p->p.dajNormu()<120 || p.dajNormu()>150).collect(Collectors.toList());
         return bezNorme;
+    }
+    public List<Profesor> sortirajPoNormi(){
+        List<Profesor> sortiranaLista = profesori.stream().sorted(Comparator.comparingInt(Profesor::dajNormu))
+                .collect(Collectors.toList());
+        return sortiranaLista;
     }
 }

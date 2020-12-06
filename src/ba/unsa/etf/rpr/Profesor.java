@@ -38,7 +38,7 @@ public class Profesor {
         return predmeti;
     }
 
-    public String getIdProfesora() {
+    public int getIdProfesora() {
         return idProfesora;
     }
 }

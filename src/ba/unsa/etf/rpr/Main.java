@@ -1,6 +1,10 @@
 package ba.unsa.etf.rpr;
 
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Stream;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -18,6 +22,12 @@ public class Main {
         Profesor p06=new Profesor(6,"Samir","Ribić");
         Profesor p07=new Profesor(7,"Vensada","Okanović");
         Profesor p08=new Profesor(8,"Dženana","Đonko");
+        //studenti
+        Student s01=new Student("Meho","Mehic",19272);
+        Student s02=new Student("Pero","Peric",19273);
+        Student s03=new Student("Selma","Selmic",19274);
+        Student s04=new Student("Ana","Anic",19275);
+        Student s05=new Student("Azra","Azric",19276);
         //predmeti
         Predmet p1=new Predmet(1,"Algoritmi i strukture podataka",5,60,true);
         Predmet p2=new Predmet(2,"Logički dizajn",5,60,true);
@@ -57,9 +67,26 @@ public class Main {
         etf.dodajProfesora(p06);
         etf.dodajProfesora(p07);
         etf.dodajProfesora(p08);
+        //dodjela predmeta profesorima
+        p01.dodajPredmet(p1);
+        p01.dodajPredmet(p9);
+        p02.dodajPredmet(p2);
+        p03.dodajPredmet(p3);
+        p04.dodajPredmet(p4);
+        p05.dodajPredmet(p5);
+        p05.dodajPredmet(p7);
+        p06.dodajPredmet(p6);
+        p07.dodajPredmet(p8);
+        p08.dodajPredmet(p9);
+        List<Profesor> profesoriVanNorme=new ArrayList<>();
+        profesoriVanNorme=etf.getProfesoriVanNorme();
+        Stream<Profesor> stream=profesoriVanNorme.stream();
+        stream.forEach(p-> System.out.println(p.getIme()+" "+p.getPrezime()+" "+p.dajNormu()));
 
+        List<Profesor> sortiranaLista=new ArrayList<>();
+        sortiranaLista=etf.sortirajPoNormi();
+        Stream<Profesor> stream2=sortiranaLista.stream();
+        stream2.forEach(p-> System.out.println(p.getIme()+" "+p.getPrezime()+" "+p.dajNormu()));
     }
-}
 
-//KAD DODAMO NOVI PREDMET I NOVOG PROFESORA I PREDMET DODAMO U LISTU PREDMETA KOJE PROFESOR PREDAJE
-//IME PROFESORA KOJI PREDAJE PREDMET MOZEMO DOBITI IZ CIJELOG FAKULTETA
+}
