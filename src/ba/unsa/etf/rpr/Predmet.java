@@ -39,12 +39,16 @@ public class Predmet{
     public boolean isObavezniPredmet() {
         return obavezniPredmet;
     }
+
     public Map<Student, Integer> getStudentiNaPredmetu() {
         return studentiNaPredmetu ;
     }
+
     public void upisiStudentaNaPredmet(Student s){
         studentiNaPredmetu.put(s,5);
     }
+
+
     public void upisiOcjenu(Student s,Integer ocjena){
         if(studentiNaPredmetu.containsKey(s) && ocjena>5) studentiNaPredmetu.replace(s,ocjena);
         else if(!studentiNaPredmetu.containsKey(s)) throw new IllegalArgumentException("Student nije upisan na predmet!");

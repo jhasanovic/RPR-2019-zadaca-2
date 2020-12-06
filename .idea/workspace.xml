@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88a3407b-8153-450e-aac6-2248a42c8a86" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/PredmetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/ProfesorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SemestarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/StudentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rpr-t2-z2" beforeDir="false" afterPath="$PROJECT_DIR$/../rpr-t2-z2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rpr20-tutorijal5-jhasanovic" beforeDir="false" afterPath="$PROJECT_DIR$/../rpr20-tutorijal5-jhasanovic" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rpr20-tutorijal6-jhasanovic" beforeDir="false" afterPath="$PROJECT_DIR$/../rpr20-tutorijal6-jhasanovic" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/CiklusStudija.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/CiklusStudija.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpr20-zadaca2-jhasanovic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpr20-zadaca2-jhasanovic.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Predmet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Predmet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Semestar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Semestar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../zadaca-1-jhasanovic" beforeDir="false" afterPath="$PROJECT_DIR$/../zadaca-1-jhasanovic" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -42,18 +48,21 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.Main" />
-      <module name="rpr20-zadaca2-jhasanovic" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ba.unsa.etf.rpr" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SemestarTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -65,9 +74,89 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PredmetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpr20-zadaca2-jhasanovic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.PredmetTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PredmetTest.upisiOcjenuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpr20-zadaca2-jhasanovic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.PredmetTest" />
+      <option name="METHOD_NAME" value="upisiOcjenuTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SemestarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpr20-zadaca2-jhasanovic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.SemestarTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SemestarTest.dodajPredmetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpr20-zadaca2-jhasanovic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.SemestarTest" />
+      <option name="METHOD_NAME" value="dodajPredmetTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ba.unsa.etf.rpr in rpr20-zadaca2-jhasanovic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpr20-zadaca2-jhasanovic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.SemestarTest" />
+        <item itemvalue="JUnit.SemestarTest.dodajPredmetTest" />
+        <item itemvalue="JUnit.ba.unsa.etf.rpr in rpr20-zadaca2-jhasanovic" />
+        <item itemvalue="JUnit.PredmetTest" />
+        <item itemvalue="JUnit.PredmetTest.upisiOcjenuTest" />
       </list>
     </recent_temporary>
   </component>
@@ -83,7 +172,7 @@
       <workItem from="1607125916400" duration="2000" />
       <workItem from="1607125965557" duration="11088000" />
       <workItem from="1607176230885" duration="42898000" />
-      <workItem from="1607264840709" duration="17808000" />
+      <workItem from="1607264840709" duration="25554000" />
     </task>
     <task id="LOCAL-00001" summary="Dodane prazne klase">
       <created>1607126080242</created>
@@ -173,10 +262,19 @@
     <MESSAGE value="Dodan korisnički interfejs u Main-u, obrisane suvišne metode u klasama" />
     <MESSAGE value="Ispravljena većina warnings i code smells" />
     <MESSAGE value="Update README filea-a" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README filea-a" />
+    <MESSAGE value="Dodan izuzetak &quot;Nelegalna vrijednost ocjene&quot; i ispravljena upozorenja za final atribute" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodan izuzetak &quot;Nelegalna vrijednost ocjene&quot; i ispravljena upozorenja za final atribute" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1607283531508">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1607283531508" />
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1607284917429">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1607284917429" />
     <state x="690" y="218" key="#com.intellij.ide.util.MemberChooser" timestamp="1607281619776">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -185,30 +283,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="503" y="275" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1607221776041" />
-    <state x="286" y="0" key="CommitChangelistDialog2" timestamp="1607282396748">
+    <state x="286" y="0" key="CommitChangelistDialog2" timestamp="1607283182849">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="286" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1607282396748" />
-    <state x="147" y="65" key="DiffContextDialog" timestamp="1607279984558">
+    <state x="286" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1607283182849" />
+    <state x="147" y="65" key="DiffContextDialog" timestamp="1607283119135">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="147" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1607279984558" />
-    <state width="1493" height="165" key="GridCell.Tab.0.bottom" timestamp="1607282495420">
+    <state x="147" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1607283119135" />
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1607290433364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="165" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607282495420" />
-    <state width="1493" height="165" key="GridCell.Tab.0.center" timestamp="1607282495420">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607290433364" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1607290433363">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="165" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607282495420" />
-    <state width="1493" height="165" key="GridCell.Tab.0.left" timestamp="1607282495420">
+    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607290433363" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1607290433363">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="165" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607282495420" />
-    <state width="1493" height="165" key="GridCell.Tab.0.right" timestamp="1607282495420">
+    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607290433363" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1607290433363">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="165" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607282495420" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607290433363" />
     <state width="1493" height="151" key="GridCell.Tab.1.bottom" timestamp="1607276820462">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -229,18 +327,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1607228080083" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1607282408525">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1607283207930">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607282408525" />
-    <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1607265035997">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607283207930" />
+    <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1607283610530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1607265035997" />
+    <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1607283610530" />
     <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607126144240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1607126144240" />
+    <state x="540" y="195" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1607287336116">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="195" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1607287336116" />
     <state x="315" y="148" width="905" height="628" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1607240680291">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -263,5 +365,26 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/rpr20_zadaca2_jhasanovic$StudentTest_konstruktorStudent.ic" NAME="StudentTest.konstruktorStudent Coverage Results" MODIFIED="1607283993610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ba.unsa.etf.rpr.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/rpr20_zadaca2_jhasanovic$PredmetTest.ic" NAME="PredmetTest Coverage Results" MODIFIED="1607288368398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ba.unsa.etf.rpr.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/rpr20_zadaca2_jhasanovic$ba_unsa_etf_rpr_in_rpr20_zadaca2_jhasanovic.ic" NAME="ba.unsa.etf.rpr in rpr20-zadaca2-jhasanovic Coverage Results" MODIFIED="1607288393381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ba.unsa.etf.rpr.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/rpr20_zadaca2_jhasanovic$SemestarTest.ic" NAME="SemestarTest Coverage Results" MODIFIED="1607290433316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ba.unsa.etf.rpr.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/rpr20_zadaca2_jhasanovic$ProfesorTest.ic" NAME="ProfesorTest Coverage Results" MODIFIED="1607285302681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ba.unsa.etf.rpr.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/rpr20_zadaca2_jhasanovic$PredmetTest_upisiOcjenuTest.ic" NAME="PredmetTest.upisiOcjenuTest Coverage Results" MODIFIED="1607286651902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ba.unsa.etf.rpr.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/rpr20_zadaca2_jhasanovic$Main.ic" NAME="Main Coverage Results" MODIFIED="1607283286466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
