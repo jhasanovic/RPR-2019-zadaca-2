@@ -20,10 +20,6 @@ public class Predmet{
         studentiNaPredmetu=new HashMap<>();
     }
 
-    public int getIdPredmeta() {
-        return idPredmeta;
-    }
-
     public String getNaziv() {
         return naziv;
     }
@@ -46,7 +42,9 @@ public class Predmet{
         studentiNaPredmetu.put(s,5);//ocjena je 5 dok je student ne upise
     }
     public void upisiOcjenu(Student s,Integer ocjena){
+        if(studentiNaPredmetu.containsKey(s))
         studentiNaPredmetu.replace(s,ocjena);
+        else throw new IllegalArgumentException("Student nije upisan na predmet!");
     }
 
 }

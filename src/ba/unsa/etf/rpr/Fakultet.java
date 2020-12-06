@@ -14,13 +14,6 @@ public class Fakultet {
         profesori = new ArrayList<>();
     }
 
-    public List<CiklusStudija> getCiklusi() {
-        return ciklusi;
-    }
-
-    public List<Profesor> getProfesori() {
-        return profesori;
-    }
     public void dodajCiklus(CiklusStudija ciklus){
         ciklusi.add(ciklus);
     }
