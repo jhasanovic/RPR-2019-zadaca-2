@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Semestar {
-private int idSemestra;
+private final int idSemestra;
 private List<Predmet> predmeti;
 
     public Semestar(int idSemestra) {

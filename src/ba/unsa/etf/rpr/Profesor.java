@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Profesor {
-    private int idProfesora;
+    private final int idProfesora;
     private String ime;
     private String prezime;
     private List<Predmet> predmeti;

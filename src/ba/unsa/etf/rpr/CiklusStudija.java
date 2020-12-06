@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 public class CiklusStudija {
-    private int idCiklusa;
+    private final int idCiklusa;
     private List<Semestar> semestri;
 
     public int getIdCiklusa() {

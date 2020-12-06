@@ -132,6 +132,7 @@ public static void postavka(){
 
 }
 
+//Unositi vrijednosti koje postoje u postavci
     public static void main(String[] args) {
         postavka();
         int odabir=0;

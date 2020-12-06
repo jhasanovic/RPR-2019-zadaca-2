@@ -4,11 +4,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Predmet{
-    private int idPredmeta;
-    private String naziv;
-    private int brojEcts;
-    private int brojSatiUSemestru;
-    private boolean obavezniPredmet;
+    private final int idPredmeta;
+    private final String naziv;
+    private final int brojEcts;
+    private final int brojSatiUSemestru;
+    private final boolean obavezniPredmet;
     private Map<Student,Integer> studentiNaPredmetu;
 
     public Predmet(int idPredmeta, String naziv, int brojEcts, int brojSatiUSemestru, boolean obavezniPredmet) {
@@ -43,11 +43,12 @@ public class Predmet{
         return studentiNaPredmetu ;
     }
     public void upisiStudentaNaPredmet(Student s){
-        studentiNaPredmetu.put(s,5);//ocjena je 5 dok je student ne upise
+        studentiNaPredmetu.put(s,5);
     }
     public void upisiOcjenu(Student s,Integer ocjena){
-        if(studentiNaPredmetu.containsKey(s)) studentiNaPredmetu.replace(s,ocjena);
-        else throw new IllegalArgumentException("Student nije upisan na predmet!");
+        if(studentiNaPredmetu.containsKey(s) && ocjena>5) studentiNaPredmetu.replace(s,ocjena);
+        else if(!studentiNaPredmetu.containsKey(s)) throw new IllegalArgumentException("Student nije upisan na predmet!");
+        else if(ocjena<=5) throw new IllegalArgumentException("Nelegalna vrijednost ocjene!");
     }
 
 }
