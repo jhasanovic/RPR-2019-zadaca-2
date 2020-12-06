@@ -10,4 +10,15 @@ public class Student{
         this.brojIndeksa = brojIndeksa;
     }
 
+    public String getIme() {
+        return ime;
+    }
+
+    public String getPrezime() {
+        return prezime;
+    }
+
+    public int getBrojIndeksa() {
+        return brojIndeksa;
+    }
 }

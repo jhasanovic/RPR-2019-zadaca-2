@@ -1,17 +1,16 @@
 package ba.unsa.etf.rpr;
-//NAPRAVITI MAPE ZA SVE PODATKE ZA LAKSI INTERFEJS!!!!!!!!!!!!!!!!!!!!!
 
 import java.util.*;
 import java.util.stream.Stream;
 
 public class Main {
-    public static Map<Integer,Profesor> profesori;
-    public static Map<Integer,Student> studenti;
-    public static Map<Integer,Predmet> predmeti;
-    public static Map<Integer,Semestar> semestri;
-    public static List<Predmet> izborni;
-    public static Map<Integer,CiklusStudija> ciklusi;
-    public static Fakultet etf=new Fakultet();
+    protected static Map<Integer,Profesor> profesori;
+    protected static Map<Integer,Student> studenti;
+    protected static Map<Integer,Predmet> predmeti;
+    protected static Map<Integer,Semestar> semestri;
+    protected static List<Predmet> izborni;
+    protected static Map<Integer,CiklusStudija> ciklusi;
+    protected static Fakultet etf=new Fakultet();
 
 public static void postavka(){
     Profesor p01=new Profesor(1,"Haris","Šupić");
@@ -25,16 +24,16 @@ public static void postavka(){
     Profesor p09=new Profesor(9,"Kemal","Hajdarević");
     Profesor p010=new Profesor(10,"Samim","Konjicija");
     profesori=new HashMap<>();
-    profesori.put(1,p01);
-    profesori.put(2,p02);
-    profesori.put(3,p03);
-    profesori.put(4,p04);
-    profesori.put(5,p05);
-    profesori.put(6,p06);
-    profesori.put(7,p07);
-    profesori.put(8,p08);
-    profesori.put(9,p09);
-    profesori.put(10,p010);
+    profesori.put(p01.getIdProfesora(),p01);
+    profesori.put(p02.getIdProfesora(),p02);
+    profesori.put(p03.getIdProfesora(),p03);
+    profesori.put(p04.getIdProfesora(),p04);
+    profesori.put(p05.getIdProfesora(),p05);
+    profesori.put(p06.getIdProfesora(),p06);
+    profesori.put(p07.getIdProfesora(),p07);
+    profesori.put(p08.getIdProfesora(),p08);
+    profesori.put(p09.getIdProfesora(),p09);
+    profesori.put(p010.getIdProfesora(),p010);
     //studenti
     Student s01=new Student("Meho","Mehic",19272);
     Student s02=new Student("Pero","Peric",19273);
@@ -42,11 +41,11 @@ public static void postavka(){
     Student s04=new Student("Ana","Anic",19275);
     Student s05=new Student("Azra","Azric",19276);
     studenti=new HashMap<>();
-    studenti.put(19272,s01);
-    studenti.put(19273,s02);
-    studenti.put(19274,s03);
-    studenti.put(19275,s04);
-    studenti.put(19276,s05);
+    studenti.put(s01.getBrojIndeksa(),s01);
+    studenti.put(s02.getBrojIndeksa(),s02);
+    studenti.put(s03.getBrojIndeksa(),s03);
+    studenti.put(s04.getBrojIndeksa(),s04);
+    studenti.put(s05.getBrojIndeksa(),s05);
     //predmeti
     Predmet p1=new Predmet(1,"Algoritmi i strukture podataka",5,60,true);
     Predmet p2=new Predmet(2,"Logički dizajn",5,60,true);
@@ -63,19 +62,19 @@ public static void postavka(){
     Predmet p12=new Predmet(12,"Osnove računarskih mreža",5,60,true);
     Predmet p13=new Predmet(13,"Ugradbeni sistemi",5,60,false);
     predmeti=new HashMap<>();
-    predmeti.put(1,p1);
-    predmeti.put(2,p2);
-    predmeti.put(3,p3);
-    predmeti.put(4,p4);
-    predmeti.put(5,p5);
-    predmeti.put(6,p6);
-    predmeti.put(7,p7);
-    predmeti.put(8,p8);
-    predmeti.put(9,p9);
-    predmeti.put(10,p10);
-    predmeti.put(11,p11);
-    predmeti.put(12,p12);
-    predmeti.put(13,p13);
+    predmeti.put(p1.getIdPredmeta(),p1);
+    predmeti.put(p2.getIdPredmeta(),p2);
+    predmeti.put(p3.getIdPredmeta(),p3);
+    predmeti.put(p4.getIdPredmeta(),p4);
+    predmeti.put(p5.getIdPredmeta(),p5);
+    predmeti.put(p6.getIdPredmeta(),p6);
+    predmeti.put(p7.getIdPredmeta(),p7);
+    predmeti.put(p8.getIdPredmeta(),p8);
+    predmeti.put(p9.getIdPredmeta(),p9);
+    predmeti.put(p10.getIdPredmeta(),p10);
+    predmeti.put(p11.getIdPredmeta(),p11);
+    predmeti.put(p12.getIdPredmeta(),p12);
+    predmeti.put(p13.getIdPredmeta(),p13);
 
     //semestri
     semestri=new HashMap<>();
@@ -95,14 +94,14 @@ public static void postavka(){
     s4.dodajPredmet(p11);
     s4.dodajPredmet(p12);
     s4.dodajPredmet(p13);
-    semestri.put(3,s3);
-    semestri.put(4,s4);
+    semestri.put(s3.getIdSemestra(),s3);
+    semestri.put(s4.getIdSemestra(),s4);
     //ciklus studija
     CiklusStudija c1=new CiklusStudija(1);
     c1.dodajSemestar(s3);
     c1.dodajSemestar(s4);
     ciklusi=new HashMap<>();
-    ciklusi.put(1,c1);
+    ciklusi.put(c1.getIdCiklusa(),c1);
 
     //fakultet
     etf.dodajCiklus(c1);
@@ -135,7 +134,6 @@ public static void postavka(){
 
     public static void main(String[] args) {
         postavka();
-
         int odabir=0;
         Scanner ulaz=new Scanner(System.in);
         do {
@@ -148,29 +146,24 @@ public static void postavka(){
             System.out.println("6. Upisi ocjenu");
         odabir=ulaz.nextInt();
             if (odabir == 1) {
-                List<Profesor> profesoriVanNorme = new ArrayList<>();
-                profesoriVanNorme = etf.getProfesoriVanNorme();
+                List<Profesor> profesoriVanNorme = etf.getProfesoriVanNorme();
                 Stream<Profesor> stream = profesoriVanNorme.stream();
                 stream.forEach(p -> System.out.println(p.getIme() + " " + p.getPrezime() + " " + p.dajNormu()));
             } else if (odabir == 2) {
-                List<Profesor> sortiranaLista = new ArrayList<>();
-                sortiranaLista = etf.sortirajPoNormi();
+                List<Profesor> sortiranaLista = etf.sortirajPoNormi();
                 Stream<Profesor> stream2 = sortiranaLista.stream();
                 stream2.forEach(p -> System.out.println(p.getIme() + " " + p.getPrezime() + " " + p.dajNormu()));
             } else if (odabir == 3) {
-                List<Profesor> poBrojuStudenata = new ArrayList<>();
-                poBrojuStudenata = etf.sortirajPoBrojuStudenata();
+                List<Profesor> poBrojuStudenata = etf.sortirajPoBrojuStudenata();
                 Stream<Profesor> stream3 = poBrojuStudenata.stream();
                 stream3.forEach(p -> System.out.println(p.getIme() + " " + p.getPrezime() + " " + p.ukupanBrojStudenataNaPredmetima()));
             } else if (odabir == 4) {
                 System.out.println("Unesite indeks studenta za kojeg želite dobiti prepis ocjena:");
-                int indeks = 0;
-                indeks = ulaz.nextInt();
+                int indeks = ulaz.nextInt();
                 Student st = studenti.get(indeks);
                 System.out.println("Unesite ciklus i semestar za koji zelite dobiti prepis ocjena za unesenog studenta:");
-                int ciklus = 0, semestar = 0;
-                ciklus = ulaz.nextInt();
-                semestar = ulaz.nextInt();
+                int ciklus = ulaz.nextInt();
+                int semestar = ulaz.nextInt();
                 CiklusStudija c = ciklusi.get(ciklus);
                 Semestar s = semestri.get(semestar);
                 Map<String, Integer> prepisOcjena = c.dajPrepisOcjena(st, s);
@@ -181,12 +174,10 @@ public static void postavka(){
                 else System.out.println("Student nije upisan u odabrani semestar!");
             } else if (odabir == 5) {
                 System.out.println("Unesite ciklus studija i semestar u koji želite upisati studenta: ");
-                int ciklus = 0, semestar = 0;
-                ciklus = ulaz.nextInt();
-                semestar = ulaz.nextInt();
+                int ciklus = ulaz.nextInt();
+                int semestar = ulaz.nextInt();
                 System.out.println("Unesite indeks studenta kojeg želite upisati u semestar: ");
-                int indeks = 0;
-                indeks = ulaz.nextInt();
+                int indeks = ulaz.nextInt();
                 System.out.println("Unesite šifre izbornih predmeta u semestru (0 za kraj izbora): ");
                 int izbor = 0;
                 izborni = new ArrayList<>();
@@ -202,13 +193,12 @@ public static void postavka(){
                     System.out.println(e.getMessage());
                 }
             } else if (odabir == 6) {
-                int predmet=0,student=0,ocjena=0;
                 System.out.println("Unesite šifru predmeta iz kojeg želite upisati ocjenu: ");
-                predmet=ulaz.nextInt();
+                int predmet=ulaz.nextInt();
                 System.out.println("Unesite indeks studenta kojem želite upisati ocjenu: ");
-                student=ulaz.nextInt();
+                int student=ulaz.nextInt();
                 System.out.println("Unesite ocjenu: ");
-                ocjena=ulaz.nextInt();
+                int ocjena=ulaz.nextInt();
                 try {
                     predmeti.get(predmet).upisiOcjenu(studenti.get(student), ocjena);
                 }
@@ -217,7 +207,6 @@ public static void postavka(){
                 }
             }
         }while(odabir!=0);
-        //DODATI TRY CATCH ZA IZUZETKE
     }
 
 }

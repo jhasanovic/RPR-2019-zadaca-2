@@ -16,6 +16,10 @@ private List<Predmet> predmeti;
         predmeti.add(predmet);
     }
 
+    public int getIdSemestra() {
+        return idSemestra;
+    }
+
     public List<Predmet> getPredmeti() {
         return predmeti;
     }

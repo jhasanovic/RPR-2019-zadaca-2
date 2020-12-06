@@ -7,12 +7,13 @@ public class Profesor {
     private int idProfesora;
     private String ime;
     private String prezime;
-    private List<Predmet> predmeti=new ArrayList<>();
+    private List<Predmet> predmeti;
 
     public Profesor(int idProfesora,String ime, String prezime) {
         this.idProfesora = idProfesora;
         this.ime = ime;
         this.prezime = prezime;
+        predmeti=new ArrayList<>();
     }
 
     public int dajNormu(){
@@ -20,6 +21,10 @@ public class Profesor {
     }
     public void dodajPredmet(Predmet predmet){
        predmeti.add(predmet);
+    }
+
+    public int getIdProfesora() {
+        return idProfesora;
     }
 
     public String getIme() {

@@ -21,9 +21,7 @@ public class Fakultet {
         profesori.add(profesor);
     }
     public List<Profesor> getProfesoriVanNorme(){
-        List<Profesor> bezNorme= new ArrayList<>();
-        bezNorme = profesori.stream().filter(p->p.dajNormu()<120 || p.dajNormu()>150).collect(Collectors.toList());
-        return bezNorme;
+        return profesori.stream().filter(p->p.dajNormu()<120 || p.dajNormu()>150).collect(Collectors.toList());
     }
     public List<Profesor> sortirajPoNormi(){
         return profesori.stream().sorted(Comparator.comparingInt(Profesor::dajNormu).reversed())

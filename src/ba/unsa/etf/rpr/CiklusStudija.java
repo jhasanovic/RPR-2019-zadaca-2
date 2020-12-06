@@ -9,6 +9,10 @@ public class CiklusStudija {
     private int idCiklusa;
     private List<Semestar> semestri;
 
+    public int getIdCiklusa() {
+        return idCiklusa;
+    }
+
     public CiklusStudija(int idCiklusa) {
         this.idCiklusa = idCiklusa;
         semestri=new ArrayList<>();
@@ -25,7 +29,7 @@ public class CiklusStudija {
         int sumaObaveznih=semestar.dajUkupanBrojECTSObaveznih();
         if(sumaIzbornih+sumaObaveznih<30) throw new IllegalStateException("Nedovoljno ECTS bodova!");
 
-        semestar.getPredmeti().stream().forEach((p) -> {
+        semestar.getPredmeti().stream().forEach(p -> {
             if(p.isObavezniPredmet()) p.upisiStudentaNaPredmet(s);
             else if(odabraniIzborniPredmeti.contains(p)) {
                 p.upisiStudentaNaPredmet(s);
