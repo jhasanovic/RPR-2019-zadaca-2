@@ -13,3 +13,7 @@ P
  src/ba/unsa/etf/rpr/Predmet.java,b\d\bd8e088e49dd21db71e8b6891851e06d6db102d3
 Q
 !src/ba/unsa/etf/rpr/Profesor.java,c\0\c01cab4391e48cf13f0c841d11bcd5d731b4a50b
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d

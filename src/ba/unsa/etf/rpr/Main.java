@@ -3,17 +3,12 @@ package ba.unsa.etf.rpr;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Stream;
 
 public class Main {
 
     public static void main(String[] args) {
-        //u svakoj klasi omoguciti dodavanje elemenata kolekcijom
-        //nakon toga omoguciti naknadno dodavanje jednog po jednog elementa
-        //student je upisan na predmete koji su u tom trenutku dostupni
-        //String idProfesora,String ime, String prezime, List<Predmet> predmeti
-        //int idPredmeta, String naziv, int brojEcts, int brojSatiUSemestru, boolean obavezniPredmet,Profesor p
-        //profesori
         Profesor p01=new Profesor(1,"Haris","Šupić");
         Profesor p02=new Profesor(2,"Novica","Nosović");
         Profesor p03=new Profesor(3,"Vedran","Ljubović");
@@ -79,10 +74,8 @@ public class Main {
         p07.dodajPredmet(p8);
         p08.dodajPredmet(p10);
         //upis studenata na predmete
-        //p1.upisiStudentaNaPredmet(s01);
-        p9.upisiStudentaNaPredmet(s01);
         List<Predmet> izborni=new ArrayList<>();
-        izborni.add(p6);
+        izborni.add(p7);
         c1.upisiStudentaUSemestar(s01,s3,izborni);
 
         List<Profesor> profesoriVanNorme=new ArrayList<>();
@@ -102,10 +95,23 @@ public class Main {
         stream3.forEach(p-> System.out.println(p.getIme()+" "+p.getPrezime()+" "+p.ukupanBrojStudenataNaPredmetima()));
 
         //upis ocjena
-        p1.upisiOcjenu(s01,8);
-        p2.upisiOcjenu(s01,9);
-        p7.upisiOcjenu(s01,6);
-        //p10.upisiOcjenu(s01,10);
+          //p1.upisiOcjenu(s01,8);
+          p2.upisiOcjenu(s01,9);
+          p3.upisiOcjenu(s01,7);
+          p4.upisiOcjenu(s01,8);
+          p5.upisiOcjenu(s01,7);
+          p7.upisiOcjenu(s01,6);
+
+        System.out.println();
+        try {
+            Map<String, Integer> prepisOcjena = c1.dajPrepisOcjena(s01, s3);
+            for (Map.Entry<String, Integer> m : prepisOcjena.entrySet()) {
+                System.out.println(m.getKey()+" "+m.getValue());
+            }
+        }
+        catch(NullPointerException e){
+            System.out.println("Izuzetak");
+        }
     }
 
 }

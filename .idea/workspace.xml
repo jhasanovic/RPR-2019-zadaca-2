@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88a3407b-8153-450e-aac6-2248a42c8a86" name="Default Changelist" comment="">
+    <list default="true" id="88a3407b-8153-450e-aac6-2248a42c8a86" name="Default Changelist" comment="Dodana metoda dajPrepisOcjena i equals i hashCode u klasu Student">
       <change beforePath="$PROJECT_DIR$/../rpr-t2-z2" beforeDir="false" afterPath="$PROJECT_DIR$/../rpr-t2-z2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rpr20-tutorijal5-jhasanovic" beforeDir="false" afterPath="$PROJECT_DIR$/../rpr20-tutorijal5-jhasanovic" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rpr20-tutorijal6-jhasanovic" beforeDir="false" afterPath="$PROJECT_DIR$/../rpr20-tutorijal6-jhasanovic" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bc4c90a37ac9d1b5ef19ac18f695d26749bb9c3f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bc4c90a37ac9d1b5ef19ac18f695d26749bb9c3f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/CiklusStudija.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/CiklusStudija.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Fakultet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Fakultet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Predmet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Predmet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Profesor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Profesor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Semestar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Semestar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zadaca-1-jhasanovic" beforeDir="false" afterPath="$PROJECT_DIR$/../zadaca-1-jhasanovic" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +42,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -47,19 +57,6 @@
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -81,7 +78,8 @@
       <workItem from="1607124392600" duration="6000" />
       <workItem from="1607125916400" duration="2000" />
       <workItem from="1607125965557" duration="11088000" />
-      <workItem from="1607176230885" duration="34931000" />
+      <workItem from="1607176230885" duration="42898000" />
+      <workItem from="1607264840709" duration="3270000" />
     </task>
     <task id="LOCAL-00001" summary="Dodane prazne klase">
       <created>1607126080242</created>
@@ -125,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607227301705</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Dodana metoda upisiStudentaUSemestar u klasu CiklusStudija i &#10;dajUkupanBrojECTSObaveznih u klasu Semestar">
+      <created>1607232551287</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607232551287</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,56 +143,80 @@
     <MESSAGE value="Dodani podaci u main" />
     <MESSAGE value="Dodana metoda sortirajPoNormi" />
     <MESSAGE value="Dodane metode sortirajPoBrojuStudenata u Fakultet, &#10;upisiStudentaNaPredmet i upisiOcjenu u Predmet,ukupanBrojStudenataNaPredmetima u Profesor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodane metode sortirajPoBrojuStudenata u Fakultet, &#10;upisiStudentaNaPredmet i upisiOcjenu u Predmet,ukupanBrojStudenataNaPredmetima u Profesor" />
+    <MESSAGE value="Dodana metoda upisiStudentaUSemestar u klasu CiklusStudija i &#10;dajUkupanBrojECTSObaveznih u klasu Semestar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodana metoda upisiStudentaUSemestar u klasu CiklusStudija i &#10;dajUkupanBrojECTSObaveznih u klasu Semestar" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="218" key="#com.intellij.ide.util.MemberChooser" timestamp="1607192071839">
+    <state x="690" y="218" key="#com.intellij.ide.util.MemberChooser" timestamp="1607267721785">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="690" y="218" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1607192071839" />
+    <state x="690" y="218" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1607267721785" />
     <state x="503" y="275" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1607221776041">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="503" y="275" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1607221776041" />
-    <state x="286" y="0" key="CommitChangelistDialog2" timestamp="1607227299202">
+    <state x="286" y="0" key="CommitChangelistDialog2" timestamp="1607268129075">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="286" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1607227299202" />
-    <state x="147" y="65" key="DiffContextDialog" timestamp="1607227233443">
+    <state x="286" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1607268129075" />
+    <state x="147" y="65" key="DiffContextDialog" timestamp="1607268115970">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="147" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1607227233443" />
-    <state width="1493" height="151" key="GridCell.Tab.0.bottom" timestamp="1607227300908">
+    <state x="147" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1607268115970" />
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1607268150526">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="151" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607227300908" />
-    <state width="1493" height="151" key="GridCell.Tab.0.center" timestamp="1607227300908">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607268150526" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1607268150526">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="151" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607227300908" />
-    <state width="1493" height="151" key="GridCell.Tab.0.left" timestamp="1607227300908">
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607268150526" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1607268150526">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="151" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607227300908" />
-    <state width="1493" height="151" key="GridCell.Tab.0.right" timestamp="1607227300908">
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607268150526" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1607268150526">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="151" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607227300908" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607268150526" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1607228080083">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1607228080083" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1607137276026">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1607232566843">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607137276026" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607232566843" />
+    <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1607265035997">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1607265035997" />
     <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607126144240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1607126144240" />
+    <state x="315" y="148" width="905" height="628" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1607240680291">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="315" y="148" width="905" height="628" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1607240680291" />
     <state x="418" y="294" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1607126135069">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="418" y="294" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824@0.0.1536.824" timestamp="1607126135069" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1607240257705">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1607240257705" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

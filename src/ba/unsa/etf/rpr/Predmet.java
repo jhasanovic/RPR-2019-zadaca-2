@@ -3,15 +3,13 @@ package ba.unsa.etf.rpr;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Predmet {
+public class Predmet{
     private int idPredmeta;
     private String naziv;
     private int brojEcts;
     private int brojSatiUSemestru;
     private boolean obavezniPredmet;
-    //private Profesor profesor;
-    private Map<Student,Integer> studentiNaPredmetu=new HashMap<>(); //predmet treba imati listu studenata i njihove ocjene iz predmeta
-    //ako student ima null value onda je neocijenjen iz tog predmeta
+    private Map<Student,Integer> studentiNaPredmetu;
 
     public Predmet(int idPredmeta, String naziv, int brojEcts, int brojSatiUSemestru, boolean obavezniPredmet) {
         this.idPredmeta = idPredmeta;
@@ -19,6 +17,7 @@ public class Predmet {
         this.brojEcts = brojEcts;
         this.brojSatiUSemestru = brojSatiUSemestru;
         this.obavezniPredmet = obavezniPredmet;
+        studentiNaPredmetu=new HashMap<>();
     }
 
     public int getIdPredmeta() {
@@ -41,12 +40,13 @@ public class Predmet {
         return obavezniPredmet;
     }
     public Map<Student, Integer> getStudentiNaPredmetu() {
-        return studentiNaPredmetu;
+        return studentiNaPredmetu ;
     }
     public void upisiStudentaNaPredmet(Student s){
-        studentiNaPredmetu.put(s,null);//ocjena ne postoji dok je student ne upise
+        studentiNaPredmetu.put(s,5);//ocjena je 5 dok je student ne upise
     }
     public void upisiOcjenu(Student s,Integer ocjena){
-        studentiNaPredmetu.put(s,ocjena);
+        studentiNaPredmetu.replace(s,ocjena);
     }
+
 }

@@ -2,6 +2,8 @@ package ba.unsa.etf.rpr;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 public class CiklusStudija {
     private int idCiklusa;
@@ -37,4 +39,10 @@ public class CiklusStudija {
             }
         });
     }
+    public Map<String,Integer> dajPrepisOcjena(Student s, Semestar semestar){
+        return semestar.getPredmeti()
+                        .stream().filter(c->c.getStudentiNaPredmetu().size()!=0)
+                        .collect(Collectors.toMap(c -> c.getNaziv(), c -> c.getStudentiNaPredmetu().get(s)));
+    }
+
 }
