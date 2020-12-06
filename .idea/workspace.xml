@@ -11,7 +11,6 @@
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Predmet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Predmet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Profesor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Profesor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Semestar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Semestar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +82,7 @@
       <workItem from="1607124392600" duration="6000" />
       <workItem from="1607125916400" duration="2000" />
       <workItem from="1607125965557" duration="11088000" />
-      <workItem from="1607176230885" duration="22361000" />
+      <workItem from="1607176230885" duration="29788000" />
     </task>
     <task id="LOCAL-00001" summary="Dodane prazne klase">
       <created>1607126080242</created>
@@ -113,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607187608780</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Dodana metoda sortirajPoNormi">
+      <created>1607218702211</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607218702211</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,33 +130,38 @@
     <MESSAGE value="Dodani atributi i deklarirane metode u klasama" />
     <MESSAGE value="Dodani getteri u klase i metode vezane za normu" />
     <MESSAGE value="Dodani podaci u main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodani podaci u main" />
+    <MESSAGE value="Dodana metoda sortirajPoNormi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodana metoda sortirajPoNormi" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="218" key="#com.intellij.ide.util.MemberChooser" timestamp="1607192071839">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="690" y="218" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1607192071839" />
-    <state x="286" y="0" key="CommitChangelistDialog2" timestamp="1607187606227">
+    <state x="503" y="275" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1607221776041">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="286" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1607187606227" />
-    <state width="1493" height="151" key="GridCell.Tab.0.bottom" timestamp="1607196395198">
+    <state x="503" y="275" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1607221776041" />
+    <state x="286" y="0" key="CommitChangelistDialog2" timestamp="1607218699774">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="151" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607196395198" />
-    <state width="1493" height="151" key="GridCell.Tab.0.center" timestamp="1607196395198">
+    <state x="286" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1607218699774" />
+    <state width="1493" height="151" key="GridCell.Tab.0.bottom" timestamp="1607226588364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="151" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607196395198" />
-    <state width="1493" height="151" key="GridCell.Tab.0.left" timestamp="1607196395198">
+    <state width="1493" height="151" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607226588364" />
+    <state width="1493" height="151" key="GridCell.Tab.0.center" timestamp="1607226588364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="151" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607196395198" />
-    <state width="1493" height="151" key="GridCell.Tab.0.right" timestamp="1607196395198">
+    <state width="1493" height="151" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607226588364" />
+    <state width="1493" height="151" key="GridCell.Tab.0.left" timestamp="1607226588364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="151" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607196395198" />
+    <state width="1493" height="151" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607226588364" />
+    <state width="1493" height="151" key="GridCell.Tab.0.right" timestamp="1607226588364">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="151" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607226588364" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1607137276026">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

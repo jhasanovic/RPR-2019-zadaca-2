@@ -77,16 +77,31 @@ public class Main {
         p05.dodajPredmet(p7);
         p06.dodajPredmet(p6);
         p07.dodajPredmet(p8);
-        p08.dodajPredmet(p9);
+        p08.dodajPredmet(p10);
+        //upis studenata na predmete
+        p1.upisiStudentaNaPredmet(s01);
+        p9.upisiStudentaNaPredmet(s01);
         List<Profesor> profesoriVanNorme=new ArrayList<>();
         profesoriVanNorme=etf.getProfesoriVanNorme();
         Stream<Profesor> stream=profesoriVanNorme.stream();
         stream.forEach(p-> System.out.println(p.getIme()+" "+p.getPrezime()+" "+p.dajNormu()));
 
+        System.out.println();
         List<Profesor> sortiranaLista=new ArrayList<>();
         sortiranaLista=etf.sortirajPoNormi();
         Stream<Profesor> stream2=sortiranaLista.stream();
         stream2.forEach(p-> System.out.println(p.getIme()+" "+p.getPrezime()+" "+p.dajNormu()));
+        System.out.println();
+        List<Profesor> poBrojuStudenata=new ArrayList<>();
+        poBrojuStudenata=etf.sortirajPoBrojuStudenata();
+        Stream<Profesor> stream3=poBrojuStudenata.stream();
+        stream3.forEach(p-> System.out.println(p.getIme()+" "+p.getPrezime()+" "+p.ukupanBrojStudenataNaPredmetima()));
+
+        //upis ocjena
+        p1.upisiOcjenu(s01,8);
+        p2.upisiOcjenu(s01,9);
+        p7.upisiOcjenu(s01,6);
+        p10.upisiOcjenu(s01,10);
     }
 
 }

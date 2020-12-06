@@ -9,7 +9,7 @@ public class Predmet {
     private int brojEcts;
     private int brojSatiUSemestru;
     private boolean obavezniPredmet;
-    private Profesor profesor;
+    //private Profesor profesor;
     private Map<Student,Integer> studentiNaPredmetu=new HashMap<>(); //predmet treba imati listu studenata i njihove ocjene iz predmeta
     //ako student ima null value onda je neocijenjen iz tog predmeta
 
@@ -40,9 +40,13 @@ public class Predmet {
     public boolean isObavezniPredmet() {
         return obavezniPredmet;
     }
-
     public Map<Student, Integer> getStudentiNaPredmetu() {
         return studentiNaPredmetu;
     }
-
+    public void upisiStudentaNaPredmet(Student s){
+        studentiNaPredmetu.put(s,null);//ocjena ne postoji dok je student ne upise
+    }
+    public void upisiOcjenu(Student s,Integer ocjena){
+        studentiNaPredmetu.put(s,ocjena);
+    }
 }

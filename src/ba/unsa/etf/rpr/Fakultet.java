@@ -33,8 +33,17 @@ public class Fakultet {
         return bezNorme;
     }
     public List<Profesor> sortirajPoNormi(){
-        List<Profesor> sortiranaLista = profesori.stream().sorted(Comparator.comparingInt(Profesor::dajNormu))
+        return profesori.stream().sorted(Comparator.comparingInt(Profesor::dajNormu).reversed())
                 .collect(Collectors.toList());
-        return sortiranaLista;
+    }
+    public List<Profesor> sortirajPoBrojuStudenata(){
+        return profesori.stream().sorted(Comparator.comparingInt(Profesor::ukupanBrojStudenataNaPredmetima).reversed())
+                .collect(Collectors.toList());
+    }
+    public upisiStudentaUSemestar(Student s,int idCiklusa,int idSemestra,ArrayList<Predmet> odabraniIzborniPredmeti){
+        //prvo provjeriti da li je suma obaveznih+izbornih minimalno 30 ects
+        //ako nije baciti izuzetak "Nedovoljno ects kredita!"
+        //za svaki ciklus, za svaki semestar,za svaki predmet kojem je obavezan==true dodati sa upisiStudentaNaPredmet
+        //ako nije obavezan, onda provjeriti je li u listi odabranih izbornih, ako jeste upisati ga i na taj
     }
 }

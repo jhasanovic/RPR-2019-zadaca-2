@@ -18,9 +18,8 @@ public class Profesor {
 
     public int dajNormu(){
         //proci kroz listu predmeta i vidjeti gdje je predmet.studentinapredmetu neprazna mapa i dodati sate predmeta
-        Stream<Predmet> stream=predmeti.stream();
-        int norma = predmeti.stream().filter(p->!p.getStudentiNaPredmetu().isEmpty()).mapToInt(Predmet::getBrojSatiUSemestru).sum();
-        return norma;
+        //Stream<Predmet> stream=predmeti.stream();
+        return predmeti.stream().filter(p->!p.getStudentiNaPredmetu().isEmpty()).mapToInt(Predmet::getBrojSatiUSemestru).sum();
     }
     public void dodajPredmet(Predmet predmet){
        predmeti.add(predmet);
@@ -40,5 +39,8 @@ public class Profesor {
 
     public int getIdProfesora() {
         return idProfesora;
+    }
+    public int ukupanBrojStudenataNaPredmetima(){
+        return predmeti.stream().mapToInt(p->p.getStudentiNaPredmetu().size()).sum();
     }
 }
