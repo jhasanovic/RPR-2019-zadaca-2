@@ -23,4 +23,18 @@ public class CiklusStudija {
     public List<Semestar> getSemestri() {
         return semestri;
     }
+    public void upisiStudentaUSemestar(Student s,Semestar semestar,List<Predmet> odabraniIzborniPredmeti){
+        //neka idCiklusa sluzi da znam u kojoj mapi trazim semestar, korisnik unese broj semestra,a ja nadjem u mapi
+
+        int sumaIzbornih=odabraniIzborniPredmeti.stream().mapToInt(p->p.getBrojEcts()).sum();
+        int sumaObaveznih=semestar.dajUkupanBrojECTSObaveznih();
+        if(sumaIzbornih+sumaObaveznih<30) throw new IllegalStateException("Nedovoljno ECTS bodova!");
+
+        semestar.getPredmeti().stream().forEach((p) -> {
+            if(p.isObavezniPredmet()) p.upisiStudentaNaPredmet(s);
+            else if(odabraniIzborniPredmeti.contains(p)) {
+                p.upisiStudentaNaPredmet(s);
+            }
+        });
+    }
 }

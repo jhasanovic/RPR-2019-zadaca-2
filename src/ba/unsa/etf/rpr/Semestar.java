@@ -23,4 +23,7 @@ private List<Predmet> predmeti;
     public List<Predmet> getPredmeti() {
         return predmeti;
     }
+    public int dajUkupanBrojECTSObaveznih(){
+        return predmeti.stream().filter(p->p.isObavezniPredmet()).mapToInt(p->p.getBrojEcts()).sum();
+    }
 }

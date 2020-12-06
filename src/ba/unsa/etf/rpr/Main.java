@@ -1,5 +1,5 @@
 package ba.unsa.etf.rpr;
-
+//NAPRAVITI MAPE ZA SVE PODATKE ZA LAKSI INTERFEJS!!!!!!!!!!!!!!!!!!!!!
 
 import java.util.ArrayList;
 import java.util.List;
@@ -79,8 +79,12 @@ public class Main {
         p07.dodajPredmet(p8);
         p08.dodajPredmet(p10);
         //upis studenata na predmete
-        p1.upisiStudentaNaPredmet(s01);
+        //p1.upisiStudentaNaPredmet(s01);
         p9.upisiStudentaNaPredmet(s01);
+        List<Predmet> izborni=new ArrayList<>();
+        izborni.add(p6);
+        c1.upisiStudentaUSemestar(s01,s3,izborni);
+
         List<Profesor> profesoriVanNorme=new ArrayList<>();
         profesoriVanNorme=etf.getProfesoriVanNorme();
         Stream<Profesor> stream=profesoriVanNorme.stream();
@@ -101,7 +105,7 @@ public class Main {
         p1.upisiOcjenu(s01,8);
         p2.upisiOcjenu(s01,9);
         p7.upisiOcjenu(s01,6);
-        p10.upisiOcjenu(s01,10);
+        //p10.upisiOcjenu(s01,10);
     }
 
 }
