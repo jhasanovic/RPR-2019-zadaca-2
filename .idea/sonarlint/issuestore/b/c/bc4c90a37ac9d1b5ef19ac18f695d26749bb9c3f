@@ -1,35 +1,25 @@
 
-E
-java:S1481"(Remove this unused "s04" local variable.(ÒÊ’Ö8ş ã.
-]	java:S125g"<This block of commented-out lines of code should be removed.(¸ãµÂüÿÿÿÿ8Ù¯¸ã.
-_
-java:S1854Y"BRemove this useless assignment to local variable "sortiranaLista".(¬úˆ·8ŸÓé¢ã.
-E
-java:S1481"(Remove this unused "s02" local variable.(È…à’8ş ã.
-T
-java:S1854"7Remove this useless assignment to local variable "s03".(“ÚûÀ8ş ã.
-Z	java:S106X"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8 İ­±ã.
-a
-java:S1854^"DRemove this useless assignment to local variable "poBrojuStudenata".(ÔËÆî8¿¬ş°ã.
-U	java:S106l"9Replace this use of System.out or System.err by a logger.(óÄÍƒ8íØ‹¸ã.
-b
-java:S1854i"@Remove this useless assignment to local variable "prepisOcjena".(›Ğß„ûÿÿÿÿ8ø¦ò·ã.
-X	java:S125M"<This block of commented-out lines of code should be removed.(ÉÔÒõ8è„³ã.
-J
-java:S1481"(Remove this unused "s05" local variable.(ò‚Î»ùÿÿÿÿ8ú€¡ã.
-g
-java:S1854S"ERemove this useless assignment to local variable "profesoriVanNorme".(Ò¤ìÆÿÿÿÿÿ8ŒŸ¾°ã.
-S
-java:S1481i"1Remove this unused "prepisOcjena" local variable.(›Ğß„ûÿÿÿÿ8ø¦ò·ã.
-Y
-java:S1854"7Remove this useless assignment to local variable "s05".(ò‚Î»ùÿÿÿÿ8ú€¡ã.
-Z	java:S106V"9Replace this use of System.out or System.err by a logger.(Å€ƒ£ûÿÿÿÿ8ãœÓ ã.
-T
-java:S1854"7Remove this useless assignment to local variable "s02".(È…à’8ş ã.
-Z	java:S106\"9Replace this use of System.out or System.err by a logger.(üÏıÿøÿÿÿÿ8â…ï¢ã.
-Z	java:S106a"9Replace this use of System.out or System.err by a logger.(ÃøùÑüÿÿÿÿ8¿¬ş°ã.
-E
-java:S1481"(Remove this unused "s03" local variable.(“ÚûÀ8ş ã.
-Z	java:S106]"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8şÓ¬±ã.
-T
-java:S1854"7Remove this useless assignment to local variable "s04".(ÒÊ’Ö8ş ã.
+V	java:S106"9Replace this use of System.out or System.err by a logger.(üÌ™ì8¨àÉã.
+[	java:S106Å"9Replace this use of System.out or System.err by a logger.(ç¥·üÿÿÿÿ8á½¥Ëã.
+[	java:S106“"9Replace this use of System.out or System.err by a logger.(¾Ç®şÿÿÿÿ8¨àÉã.
+[	java:S106˜"9Replace this use of System.out or System.err by a logger.(Å€ƒ£ûÿÿÿÿ8¨àÉã.
+[	java:S106’"9Replace this use of System.out or System.err by a logger.(»›úÿÿÿÿ8¨àÉã.
+[	java:S106œ"9Replace this use of System.out or System.err by a logger.(üÏıÿøÿÿÿÿ8¨àÉã.
+V	java:S106¶"9Replace this use of System.out or System.err by a logger.(†€©†8Úï¤Ëã.
+V	java:S106Ç"9Replace this use of System.out or System.err by a logger.(¡ªø®8á½¥Ëã.
+V	java:S106­"9Replace this use of System.out or System.err by a logger.(«á·Í8¨àÉã.
+[	java:S106´"9Replace this use of System.out or System.err by a logger.(Âîš¼şÿÿÿÿ8¨àÉã.
+[	java:S106 "9Replace this use of System.out or System.err by a logger.(ÃøùÑüÿÿÿÿ8¨àÉã.
+U	java:S106É"9Replace this use of System.out or System.err by a logger.(“¡Ú+8á½¥Ëã.
+V	java:S106¯"9Replace this use of System.out or System.err by a logger.(„ËÿŞ8¨àÉã.
+V	java:S106"9Replace this use of System.out or System.err by a logger.(ÒŒÓ…8¨àÉã.
+V	java:S106"9Replace this use of System.out or System.err by a logger.(Ü½ìú8¨àÉã.
+[	java:S106Â"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8á½¥Ëã.
+[	java:S106"9Replace this use of System.out or System.err by a logger.(¦Š”Øøÿÿÿÿ8¨àÉã.
+U	java:S106¥"9Replace this use of System.out or System.err by a logger.(íİéP8¨àÉã.
+[	java:S106‘"9Replace this use of System.out or System.err by a logger.(ùµ¤Ùûÿÿÿÿ8¨àÉã.
+[	java:S106¢"9Replace this use of System.out or System.err by a logger.(ûôÜÉıÿÿÿÿ8¨àÉã.
+V	java:S106±"9Replace this use of System.out or System.err by a logger.(ÊˆØ8¨àÉã.
+p
+java:S3776ˆ"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(Çµí‘8ÌåÑÉã.
+[	java:S106Ï"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8á½¥Ëã.

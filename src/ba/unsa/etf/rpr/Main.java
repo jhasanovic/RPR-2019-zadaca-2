@@ -135,10 +135,10 @@ public static void postavka(){
 //Unositi vrijednosti koje postoje u postavci
     public static void main(String[] args) {
         postavka();
-        int odabir=0;
+        int odabir;
         Scanner ulaz=new Scanner(System.in);
         do {
-            System.out.println("Odabir opcije: ");
+            System.out.println("Odabir opcije (0 za izlaz): ");
             System.out.println("1. Daj spisak profesora na fakultetu koji nemaju normu ili rade preko norme");
             System.out.println("2. Daj spisak profesora sortiranih po normi");
             System.out.println("3. Daj spisak profesora sortiranih po ukupnom broju studenata koji pohađaju njihove predmete");
@@ -168,10 +168,9 @@ public static void postavka(){
                 CiklusStudija c = ciklusi.get(ciklus);
                 Semestar s = semestri.get(semestar);
                 Map<String, Integer> prepisOcjena = c.dajPrepisOcjena(st, s);
-                if (!prepisOcjena.isEmpty())
-                    for (Map.Entry<String, Integer> m : prepisOcjena.entrySet()) {
-                        System.out.println(m.getKey() + " " + m.getValue());
-                    }
+                if (!prepisOcjena.isEmpty()) {
+                    prepisOcjena.entrySet().stream().forEach(m -> System.out.println(m.getKey() + " " + m.getValue()));
+                }
                 else System.out.println("Student nije upisan u odabrani semestar!");
             } else if (odabir == 5) {
                 System.out.println("Unesite ciklus studija i semestar u koji želite upisati studenta: ");
@@ -180,7 +179,7 @@ public static void postavka(){
                 System.out.println("Unesite indeks studenta kojeg želite upisati u semestar: ");
                 int indeks = ulaz.nextInt();
                 System.out.println("Unesite šifre izbornih predmeta u semestru (0 za kraj izbora): ");
-                int izbor = 0;
+                int izbor;
                 izborni = new ArrayList<>();
                 do {
                     izbor = ulaz.nextInt();

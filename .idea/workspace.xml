@@ -2,18 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88a3407b-8153-450e-aac6-2248a42c8a86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/PredmetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/ProfesorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SemestarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/CiklusStudijaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/FakultetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rpr-t2-z2" beforeDir="false" afterPath="$PROJECT_DIR$/../rpr-t2-z2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rpr20-tutorijal5-jhasanovic" beforeDir="false" afterPath="$PROJECT_DIR$/../rpr20-tutorijal5-jhasanovic" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rpr20-tutorijal6-jhasanovic" beforeDir="false" afterPath="$PROJECT_DIR$/../rpr20-tutorijal6-jhasanovic" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bc4c90a37ac9d1b5ef19ac18f695d26749bb9c3f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bc4c90a37ac9d1b5ef19ac18f695d26749bb9c3f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpr20-zadaca2-jhasanovic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpr20-zadaca2-jhasanovic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Predmet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Predmet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Semestar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Semestar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/CiklusStudija.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/CiklusStudija.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Fakultet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Fakultet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/PredmetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/PredmetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/ProfesorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/ProfesorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SemestarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SemestarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/StudentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../zadaca-1-jhasanovic" beforeDir="false" afterPath="$PROJECT_DIR$/../zadaca-1-jhasanovic" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,19 +66,34 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SemestarTest">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.Main" />
+      <module name="rpr20-zadaca2-jhasanovic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredmetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CiklusStudijaTest.dajPrepisOcjenaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rpr20-zadaca2-jhasanovic" />
       <extension name="coverage">
         <pattern>
@@ -83,29 +102,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
-      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.PredmetTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PredmetTest.upisiOcjenuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="rpr20-zadaca2-jhasanovic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
-      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.PredmetTest" />
-      <option name="METHOD_NAME" value="upisiOcjenuTest" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.CiklusStudijaTest" />
+      <option name="METHOD_NAME" value="dajPrepisOcjenaTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemestarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CiklusStudijaTest.upisiStudentaUSemestarIzuzetak" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rpr20-zadaca2-jhasanovic" />
       <extension name="coverage">
         <pattern>
@@ -114,13 +118,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
-      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.SemestarTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.CiklusStudijaTest" />
+      <option name="METHOD_NAME" value="upisiStudentaUSemestarIzuzetak" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemestarTest.dodajPredmetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CiklusStudijaTest.upisiStudentaUSemestarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rpr20-zadaca2-jhasanovic" />
       <extension name="coverage">
         <pattern>
@@ -129,8 +134,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
-      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.SemestarTest" />
-      <option name="METHOD_NAME" value="dodajPredmetTest" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.CiklusStudijaTest" />
+      <option name="METHOD_NAME" value="upisiStudentaUSemestarTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SemestarTest" />
-        <item itemvalue="JUnit.SemestarTest.dodajPredmetTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ba.unsa.etf.rpr in rpr20-zadaca2-jhasanovic" />
-        <item itemvalue="JUnit.PredmetTest" />
-        <item itemvalue="JUnit.PredmetTest.upisiOcjenuTest" />
+        <item itemvalue="JUnit.CiklusStudijaTest.dajPrepisOcjenaTest" />
+        <item itemvalue="JUnit.CiklusStudijaTest.upisiStudentaUSemestarTest" />
+        <item itemvalue="JUnit.CiklusStudijaTest.upisiStudentaUSemestarIzuzetak" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +177,10 @@
       <workItem from="1607125916400" duration="2000" />
       <workItem from="1607125965557" duration="11088000" />
       <workItem from="1607176230885" duration="42898000" />
-      <workItem from="1607264840709" duration="25554000" />
+      <workItem from="1607264840709" duration="25662000" />
+      <workItem from="1607347719124" duration="2991000" />
+      <workItem from="1607350759660" duration="3332000" />
+      <workItem from="1607354143662" duration="2186000" />
     </task>
     <task id="LOCAL-00001" summary="Dodane prazne klase">
       <created>1607126080242</created>
@@ -244,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607282399303</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Dodani testovi za metode Predmet, Profesor, Semestar i Student">
+      <created>1607290786945</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607290786945</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,7 +278,8 @@
     <MESSAGE value="Ispravljena većina warnings i code smells" />
     <MESSAGE value="Update README filea-a" />
     <MESSAGE value="Dodan izuzetak &quot;Nelegalna vrijednost ocjene&quot; i ispravljena upozorenja za final atribute" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodan izuzetak &quot;Nelegalna vrijednost ocjene&quot; i ispravljena upozorenja za final atribute" />
+    <MESSAGE value="Dodani testovi za metode Predmet, Profesor, Semestar i Student" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodani testovi za metode Predmet, Profesor, Semestar i Student" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -271,66 +287,66 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1607283531508" />
-    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1607284917429">
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1607352323886">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1607284917429" />
-    <state x="690" y="218" key="#com.intellij.ide.util.MemberChooser" timestamp="1607281619776">
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1607352323886" />
+    <state x="690" y="218" key="#com.intellij.ide.util.MemberChooser" timestamp="1607352630989">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="690" y="218" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1607281619776" />
+    <state x="690" y="218" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1607352630989" />
     <state x="503" y="275" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1607221776041">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="503" y="275" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1607221776041" />
-    <state x="286" y="0" key="CommitChangelistDialog2" timestamp="1607283182849">
+    <state x="286" y="0" key="CommitChangelistDialog2" timestamp="1607290784301">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="286" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1607283182849" />
+    <state x="286" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1607290784301" />
     <state x="147" y="65" key="DiffContextDialog" timestamp="1607283119135">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1607283119135" />
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1607290433364">
+    <state width="1493" height="155" key="GridCell.Tab.0.bottom" timestamp="1607356240384">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607290433364" />
-    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1607290433363">
+    <state width="1493" height="155" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607356240384" />
+    <state width="1493" height="155" key="GridCell.Tab.0.center" timestamp="1607356240384">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607290433363" />
-    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1607290433363">
+    <state width="1493" height="155" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607356240384" />
+    <state width="1493" height="155" key="GridCell.Tab.0.left" timestamp="1607356240384">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607290433363" />
-    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1607290433363">
+    <state width="1493" height="155" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607356240384" />
+    <state width="1493" height="155" key="GridCell.Tab.0.right" timestamp="1607356240384">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607290433363" />
-    <state width="1493" height="151" key="GridCell.Tab.1.bottom" timestamp="1607276820462">
+    <state width="1493" height="155" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607356240384" />
+    <state width="1493" height="151" key="GridCell.Tab.1.bottom" timestamp="1607290822256">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="151" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607276820462" />
-    <state width="1493" height="151" key="GridCell.Tab.1.center" timestamp="1607276820462">
+    <state width="1493" height="151" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607290822256" />
+    <state width="1493" height="151" key="GridCell.Tab.1.center" timestamp="1607290822256">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="151" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1607276820462" />
-    <state width="1493" height="151" key="GridCell.Tab.1.left" timestamp="1607276820462">
+    <state width="1493" height="151" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1607290822256" />
+    <state width="1493" height="151" key="GridCell.Tab.1.left" timestamp="1607290822256">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="151" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1607276820462" />
-    <state width="1493" height="151" key="GridCell.Tab.1.right" timestamp="1607276820462">
+    <state width="1493" height="151" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1607290822256" />
+    <state width="1493" height="151" key="GridCell.Tab.1.right" timestamp="1607290822256">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="151" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1607276820462" />
+    <state width="1493" height="151" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1607290822256" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1607228080083">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1607228080083" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1607283207930">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1607290802580">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607283207930" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607290802580" />
     <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1607283610530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -339,10 +355,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1607126144240" />
-    <state x="540" y="195" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1607287336116">
+    <state x="540" y="195" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1607355295336">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="540" y="195" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1607287336116" />
+    <state x="540" y="195" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1607355295336" />
     <state x="315" y="148" width="905" height="628" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1607240680291">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -367,19 +383,56 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/rpr20_zadaca2_jhasanovic$FakultetTest.ic" NAME="FakultetTest Coverage Results" MODIFIED="1607349615455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ba.unsa.etf.rpr.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/rpr20_zadaca2_jhasanovic$FakultetTest_getProfesoriVanNorme.ic" NAME="FakultetTest.getProfesoriVanNorme Coverage Results" MODIFIED="1607350111196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ba.unsa.etf.rpr.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/rpr20_zadaca2_jhasanovic$StudentTest_konstruktorStudent.ic" NAME="StudentTest.konstruktorStudent Coverage Results" MODIFIED="1607283993610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ba.unsa.etf.rpr.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/rpr20_zadaca2_jhasanovic$FakultetTest_konstruktorFakultet.ic" NAME="FakultetTest.konstruktorFakultet Coverage Results" MODIFIED="1607348117845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ba.unsa.etf.rpr.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/rpr20_zadaca2_jhasanovic$CiklusStudijaTest_upisiStudentaUSemestarTest.ic" NAME="CiklusStudijaTest.upisiStudentaUSemestarTest Coverage Results" MODIFIED="1607353884864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ba.unsa.etf.rpr.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/rpr20_zadaca2_jhasanovic$PredmetTest.ic" NAME="PredmetTest Coverage Results" MODIFIED="1607288368398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ba.unsa.etf.rpr.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/rpr20_zadaca2_jhasanovic$ba_unsa_etf_rpr_in_rpr20_zadaca2_jhasanovic.ic" NAME="ba.unsa.etf.rpr in rpr20-zadaca2-jhasanovic Coverage Results" MODIFIED="1607288393381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>ba.unsa.etf.rpr.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/rpr20_zadaca2_jhasanovic$SemestarTest.ic" NAME="SemestarTest Coverage Results" MODIFIED="1607290433316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/rpr20_zadaca2_jhasanovic$FakultetTest_sortirajPoBrojuStudenataTest.ic" NAME="FakultetTest.sortirajPoBrojuStudenataTest Coverage Results" MODIFIED="1607352328285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ba.unsa.etf.rpr.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/rpr20_zadaca2_jhasanovic$ProfesorTest.ic" NAME="ProfesorTest Coverage Results" MODIFIED="1607285302681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ba.unsa.etf.rpr.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/rpr20_zadaca2_jhasanovic$FakultetTest_sortirajPoNormi.ic" NAME="FakultetTest.sortirajPoNormi Coverage Results" MODIFIED="1607350719844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ba.unsa.etf.rpr.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/rpr20_zadaca2_jhasanovic$FakultetTest_dodajProfesora.ic" NAME="FakultetTest.dodajProfesora Coverage Results" MODIFIED="1607349797754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ba.unsa.etf.rpr.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/rpr20_zadaca2_jhasanovic$CiklusStudijaTest_upisiStudentaUSemestarIzuzetak.ic" NAME="CiklusStudijaTest.upisiStudentaUSemestarIzuzetak Coverage Results" MODIFIED="1607353396565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ba.unsa.etf.rpr.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/rpr20_zadaca2_jhasanovic$CiklusStudijaTest_dajPrepisOcjenaTest.ic" NAME="CiklusStudijaTest.dajPrepisOcjenaTest Coverage Results" MODIFIED="1607355170584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ba.unsa.etf.rpr.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/rpr20_zadaca2_jhasanovic$All_in_rpr20_zadaca2_jhasanovic.ic" NAME="All in rpr20-zadaca2-jhasanovic Coverage Results" MODIFIED="1607347774220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/rpr20_zadaca2_jhasanovic$CiklusStudijaTest.ic" NAME="CiklusStudijaTest Coverage Results" MODIFIED="1607352506982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ba.unsa.etf.rpr.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/rpr20_zadaca2_jhasanovic$ba_unsa_etf_rpr_in_rpr20_zadaca2_jhasanovic.ic" NAME="ba.unsa.etf.rpr in rpr20-zadaca2-jhasanovic Coverage Results" MODIFIED="1607355347875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ba.unsa.etf.rpr.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/rpr20_zadaca2_jhasanovic$SemestarTest.ic" NAME="SemestarTest Coverage Results" MODIFIED="1607347734376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ba.unsa.etf.rpr.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/rpr20_zadaca2_jhasanovic$FakultetTest_getProfesoriTest.ic" NAME="FakultetTest.getProfesoriTest Coverage Results" MODIFIED="1607350235580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ba.unsa.etf.rpr.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/rpr20_zadaca2_jhasanovic$CiklusStudijaTest_dodajSemestar.ic" NAME="CiklusStudijaTest.dodajSemestar Coverage Results" MODIFIED="1607352700284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ba.unsa.etf.rpr.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/rpr20_zadaca2_jhasanovic$PredmetTest_upisiOcjenuTest.ic" NAME="PredmetTest.upisiOcjenuTest Coverage Results" MODIFIED="1607286651902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

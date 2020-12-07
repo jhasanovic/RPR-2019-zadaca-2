@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class PredmetTest {
 
     @Test
-    void konstruktorPredmet() {
+    void konstruktorPredmetTest() {
         Predmet p=new Predmet(1,"Razvoj programskih rješenja",5,60,true);
         assertAll ( "konstruktor",
                 () -> assertEquals( "Razvoj programskih rješenja", p.getNaziv()),
@@ -20,7 +20,7 @@ class PredmetTest {
 
 
     @Test
-    void upisiStudentaNaPredmet() {
+    void upisiStudentaNaPredmetTest() {
         Student s=new Student("Jasmina","Hasanović",18491);
         Predmet p=new Predmet(1,"Razvoj programskih rješenja",5,60,true);
         p.upisiStudentaNaPredmet(s);
@@ -64,12 +64,12 @@ class PredmetTest {
         assertEquals("Student nije upisan na predmet!", exception.getMessage());
     }
     @Test
-    void praznaMapaStudentiNaPredmetu() {
+    void praznaMapaStudentiNaPredmetuTest() {
         Predmet p=new Predmet(3,"Logički dizajn",5,60,true);
         assertTrue(p.getStudentiNaPredmetu().isEmpty());
     }
     @Test
-    void studentNijeUpisanNaPredmet() {
+    void studentNijeUpisanNaPredmetTest() {
         Student s=new Student("Niko","Nikić",11193);
         Student s2=new Student("Neko","Nekić",11190);
         Predmet p=new Predmet(3,"Logički dizajn",5,60,true);

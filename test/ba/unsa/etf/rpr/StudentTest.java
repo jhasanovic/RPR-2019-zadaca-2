@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class StudentTest {
 
     @org.junit.jupiter.api.Test
-    void konstruktorStudent() {
+    void konstruktorStudentTest() {
         Student s=new Student("Jasmina","Hasanović",18491);
         assertAll ( "konstruktor",
                 () -> assertEquals( "Jasmina", s.getIme()),

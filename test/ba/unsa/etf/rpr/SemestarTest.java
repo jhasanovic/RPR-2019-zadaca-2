@@ -13,7 +13,7 @@ class SemestarTest {
     Predmet p2 = new Predmet(2,"Predmet2",5,60,true);
     Predmet p3 = new Predmet(3,"Predmet3",5,60,false);
     @Test
-    void konstruktorSemestar() {
+    void konstruktorSemestarTest() {
     Semestar s = new Semestar(1);
         assertEquals(1, s.getIdSemestra());
     }

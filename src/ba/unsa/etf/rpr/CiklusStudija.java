@@ -18,6 +18,10 @@ public class CiklusStudija {
         semestri=new ArrayList<>();
     }
 
+    public List<Semestar> getSemestri() {
+        return semestri;
+    }
+
     public void dodajSemestar(Semestar semestar){
         semestri.add(semestar);
     }

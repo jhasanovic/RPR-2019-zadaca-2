@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class ProfesorTest {
 
     @Test
-    void konstruktorProfesor() {
+    void konstruktorProfesorTest() {
         Profesor p=new Profesor(1,"Vedran","Ljubović");
         assertAll ( "konstruktor",
                 () -> assertEquals( 1, p.getIdProfesora()),
