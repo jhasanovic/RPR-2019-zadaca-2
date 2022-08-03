@@ -22,7 +22,6 @@ public class Fakultet {
         return profesori;
     }
 
-
     public void dodajCiklus(CiklusStudija ciklus){
         ciklusi.add(ciklus);
     }
